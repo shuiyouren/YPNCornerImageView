@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "YPNCornerImageView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet YPNCornerImageView *theImageView;
 
 @end
 
@@ -16,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.theImageView.cornerRadius = 50;
+    self.theImageView.image = [UIImage imageNamed:@"ym.JPG"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

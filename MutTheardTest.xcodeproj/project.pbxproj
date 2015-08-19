@@ -14,6 +14,8 @@
 		55DE77F91B849F4E00C15D0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DE77F81B849F4E00C15D0B /* Images.xcassets */; };
 		55DE77FC1B849F4E00C15D0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DE77FA1B849F4E00C15D0B /* LaunchScreen.xib */; };
 		55DE78081B849F4E00C15D0B /* MutTheardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DE78071B849F4E00C15D0B /* MutTheardTestTests.m */; };
+		55DE78151B84A6E900C15D0B /* YPNCornerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DE78141B84A6E900C15D0B /* YPNCornerImageView.m */; };
+		55DE78171B84B11500C15D0B /* ym.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DE78161B84B11500C15D0B /* ym.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		55DE78011B849F4E00C15D0B /* MutTheardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutTheardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DE78061B849F4E00C15D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DE78071B849F4E00C15D0B /* MutTheardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutTheardTestTests.m; sourceTree = "<group>"; };
+		55DE78131B84A6E900C15D0B /* YPNCornerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNCornerImageView.h; sourceTree = "<group>"; };
+		55DE78141B84A6E900C15D0B /* YPNCornerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNCornerImageView.m; sourceTree = "<group>"; };
+		55DE78161B84B11500C15D0B /* ym.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ym.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				55DE77F01B849F4E00C15D0B /* AppDelegate.m */,
 				55DE77F21B849F4E00C15D0B /* ViewController.h */,
 				55DE77F31B849F4E00C15D0B /* ViewController.m */,
+				55DE78131B84A6E900C15D0B /* YPNCornerImageView.h */,
+				55DE78141B84A6E900C15D0B /* YPNCornerImageView.m */,
+				55DE78161B84B11500C15D0B /* ym.jpg */,
 				55DE77F51B849F4E00C15D0B /* Main.storyboard */,
 				55DE77F81B849F4E00C15D0B /* Images.xcassets */,
 				55DE77FA1B849F4E00C15D0B /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				55DE77F71B849F4E00C15D0B /* Main.storyboard in Resources */,
 				55DE77FC1B849F4E00C15D0B /* LaunchScreen.xib in Resources */,
 				55DE77F91B849F4E00C15D0B /* Images.xcassets in Resources */,
+				55DE78171B84B11500C15D0B /* ym.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DE77F41B849F4E00C15D0B /* ViewController.m in Sources */,
+				55DE78151B84A6E900C15D0B /* YPNCornerImageView.m in Sources */,
 				55DE77F11B849F4E00C15D0B /* AppDelegate.m in Sources */,
 				55DE77EE1B849F4E00C15D0B /* main.m in Sources */,
 			);
